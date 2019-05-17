@@ -1,0 +1,70 @@
+{
+  "network-configs": {
+    "network-1": {
+      "version": "1.0",
+      "clients": {
+        "client-1": {
+          "tlsEnable": false,
+          "organization": "TestOrg2",
+          "channel": "chus-east-1-0433560f-ff8a-4fa4-b74d-6cc710897098",
+          "credentialStore": {
+            "path": "/tmp/credentialStore_Org1/credential",
+            "cryptoStore": {
+              "path": "/tmp/credentialStore_Org1/crypto"
+            }
+          }
+        }
+      },
+      "channels": {
+        "chus-east-1-0433560f-ff8a-4fa4-b74d-6cc710897098": {
+          "peers": {
+            "peer.TestOrg2.external.xooa.com": {}
+          },
+          "connection": {
+            "timeout": {
+              "peer": {
+                "endorser": "6000",
+                "eventHub": "6000",
+                "eventReg": "6000"
+              }
+            }
+          }
+        }
+      },
+      "organizations": {
+        "TestOrg2": {
+          "mspid": "TestOrg2",
+          "fullpath": false,
+          "adminPrivateKey": {
+            "path":
+              "/crypto-config/peerOrganizations/org.TestOrg2.com/users/Admin@org.TestOrg2.com/msp/keystore"
+          },
+          "signedCert": {
+            "path":
+              "/crypto-config/peerOrganizations/org.TestOrg2.com/users/Admin@org.TestOrg2.com/msp/signcerts"
+          }
+        }
+      },
+      "peers": {
+        "peer.TestOrg2.external.xooa.com": {
+          "tlsCACerts": {
+            "path":
+              "/crypto-config/peerOrganizations/org.TestOrg2.com/peers/peer0.org.TestOrg2.com/tls/ca.crt"
+          },
+          "url": "grpc://172.18.19.26:7051",
+          "eventUrl": "grpc://172.18.19.26:7053",
+          "grpcOptions": {
+            "ssl-target-name-override": "peer0.org.TestOrg2.com"
+          }
+        }
+      },
+      "orderers": {
+        "orderer.example.com": {
+          "url": "grpc://172.18.19.25:7050"
+        }
+      }
+    }
+  },
+  "configtxgenToolPath": "fabric-path/fabric-samples/bin",
+  "license": "Apache-2.0"
+}

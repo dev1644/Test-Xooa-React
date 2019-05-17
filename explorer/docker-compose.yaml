@@ -1,0 +1,34 @@
+#
+# Copyright IBM Corp. All Rights Reserved.
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+version: '3.3'
+
+networks:
+  byfn:
+    driver_opts:
+      parent: en3
+    ipam:
+      config:
+          - subnet: 172.28.0.0/16
+       
+services:
+  Explorer:
+    container_name: explorer
+    restart: always
+    build: ./
+    image: xooa/xooa-explorer:3.3
+    environment:
+      - CHANNELS=sandeepxooask8bqktzx
+      - ORG=alepo
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./crypto-config/peerOrganizations/org.alepo.com/users/Admin@org.alepo.com/msp:/msp/
+    extra_hosts:
+       - "orderer2.orderers.aws.xooa.com:172.18.19.23"  
+    networks:
+      byfn:
+    
+      

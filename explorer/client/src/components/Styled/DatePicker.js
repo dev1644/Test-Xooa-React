@@ -48,6 +48,24 @@ const styles = () => {
       '& .react-datepicker__input-container > input': {
         background:  "#454545",
         color: "#ffffff"
+      },
+      '& .react-datepicker__day': {
+        color: "#ffffff"
+      },
+      '& .react-datepicker__day:hover': {
+        color: "#000000"
+      },
+      '& .react-datepicker__day:hover': {
+        color: "#000000"
+      },
+      '& .react-datepicker__day-name': {
+        color: "#ffffff"
+      },
+      '& .react-datepicker__current-month': {
+        color: "#ffffff"
+      },
+      '& .react-datepicker-time__header': {
+        color: "#ffffff"
       }
     }
   };

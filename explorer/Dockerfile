@@ -19,7 +19,7 @@ RUN apk add --no-cache --virtual npm-deps python make g++ && \
 # default values pf environment variables
 # that are used inside container
 
-ENV DEFAULT_WORKDIR /opt
+ENV DEFAULT_WORKDIR /opt 
 ENV EXPLORER_APP_PATH $DEFAULT_WORKDIR/explorer
 
 # database configuration
@@ -50,7 +50,6 @@ RUN apk del npm-deps
 
 # expose default ports
 EXPOSE 8080
-EXPOSE 3000
 
 # run blockchain explorer main app
 CMD node $EXPLORER_APP_PATH/configure.js && tail -f /dev/null;

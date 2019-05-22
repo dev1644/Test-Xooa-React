@@ -677,3 +677,164 @@
 18:12:46.767948 version@stat F·[1 1] S·353B[176B 177B] Sc·[0.25 0.00]
 18:12:46.793171 db@janitor F·4 G·0
 18:12:46.793191 db@open done T·29.048474ms
+=============== May 20, 2019 (UTC) ===============
+14:13:25.780021 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:13:25.787504 version@stat F·[1 1] S·353B[176B 177B] Sc·[0.25 0.00]
+14:13:25.787520 db@open opening
+14:13:25.787585 journal@recovery F·1
+14:13:25.787912 journal@recovery recovering @174
+14:13:25.790058 memdb@flush created L0@176 N·1 S·176B "chu..3\x00\a,d142":"chu..3\x00\a,d142"
+14:13:25.792001 version@stat F·[2 1] S·529B[352B 177B] Sc·[0.50 0.00]
+14:13:25.807245 db@janitor F·5 G·0
+14:13:25.807268 db@open done T·19.741747ms
+=============== May 21, 2019 (UTC) ===============
+09:36:19.147335 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:36:19.154457 version@stat F·[2 1] S·529B[352B 177B] Sc·[0.50 0.00]
+09:36:19.154497 db@open opening
+09:36:19.154663 journal@recovery F·1
+09:36:19.155768 journal@recovery recovering @177
+09:36:19.158324 memdb@flush created L0@179 N·1 S·176B "chu..3\x00\a,d144":"chu..3\x00\a,d144"
+09:36:19.165145 version@stat F·[3 1] S·705B[528B 177B] Sc·[0.75 0.00]
+09:36:19.173486 db@janitor F·6 G·0
+09:36:19.173575 db@open done T·19.059108ms
+=============== May 21, 2019 (UTC) ===============
+09:37:48.740737 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:37:48.741223 version@stat F·[3 1] S·705B[528B 177B] Sc·[0.75 0.00]
+09:37:48.741269 db@open opening
+09:37:48.741497 journal@recovery F·1
+09:37:48.742664 journal@recovery recovering @180
+09:37:48.759744 memdb@flush created L0@182 N·1 S·176B "chu..3\x00\a,d146":"chu..3\x00\a,d146"
+09:37:48.766158 version@stat F·[4 1] S·881B[704B 177B] Sc·[1.00 0.00]
+09:37:48.779190 db@janitor F·7 G·0
+09:37:48.779320 db@open done T·38.023023ms
+09:37:48.779464 table@compaction L0·4 -> L1·0 S·704B Q·147
+09:37:48.780189 version@stat F·[0 1] S·177B[0B 177B] Sc·[0.00 0.00]
+09:37:48.787271 table@compaction committed F-4 S-704B Ke·0 D·4 T·7.681881ms
+09:37:48.787427 table@remove removed @182
+09:37:48.787527 table@remove removed @179
+09:37:48.787644 table@remove removed @176
+09:37:48.787749 table@remove removed @173
+=============== May 21, 2019 (UTC) ===============
+09:39:27.464376 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:39:27.464516 version@stat F·[0 1] S·177B[0B 177B] Sc·[0.00 0.00]
+09:39:27.464530 db@open opening
+09:39:27.464588 journal@recovery F·1
+09:39:27.466557 journal@recovery recovering @183
+09:39:27.472558 memdb@flush created L0@185 N·1 S·176B "chu..3\x00\a,d148":"chu..3\x00\a,d148"
+09:39:27.473793 version@stat F·[1 1] S·353B[176B 177B] Sc·[0.25 0.00]
+09:39:27.491957 db@janitor F·4 G·0
+09:39:27.492054 db@open done T·27.510493ms
+=============== May 21, 2019 (UTC) ===============
+09:52:49.155185 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:52:49.155303 version@stat F·[1 1] S·353B[176B 177B] Sc·[0.25 0.00]
+09:52:49.155314 db@open opening
+09:52:49.155360 journal@recovery F·1
+09:52:49.157409 journal@recovery recovering @186
+09:52:49.163445 memdb@flush created L0@188 N·1 S·176B "chu..3\x00\a,d150":"chu..3\x00\a,d150"
+09:52:49.163903 version@stat F·[2 1] S·529B[352B 177B] Sc·[0.50 0.00]
+09:52:49.182219 db@janitor F·5 G·0
+09:52:49.182315 db@open done T·26.984209ms
+=============== May 21, 2019 (UTC) ===============
+12:55:14.904396 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:55:14.905484 version@stat F·[2 1] S·529B[352B 177B] Sc·[0.50 0.00]
+12:55:14.905522 db@open opening
+12:55:14.905697 journal@recovery F·1
+12:55:14.910926 journal@recovery recovering @189
+12:55:14.926143 memdb@flush created L0@191 N·1 S·176B "chu..3\x00\a,d152":"chu..3\x00\a,d152"
+12:55:14.932825 version@stat F·[3 1] S·705B[528B 177B] Sc·[0.75 0.00]
+12:55:14.946770 db@janitor F·6 G·0
+12:55:14.946878 db@open done T·41.332729ms
+=============== May 21, 2019 (UTC) ===============
+14:31:53.144546 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:31:53.144642 version@stat F·[3 1] S·705B[528B 177B] Sc·[0.75 0.00]
+14:31:53.144650 db@open opening
+14:31:53.144688 journal@recovery F·1
+14:31:53.146001 journal@recovery recovering @192
+14:31:53.152894 memdb@flush created L0@194 N·1 S·176B "chu..3\x00\a,d154":"chu..3\x00\a,d154"
+14:31:53.154634 version@stat F·[4 1] S·881B[704B 177B] Sc·[1.00 0.00]
+14:31:53.170808 db@janitor F·7 G·0
+14:31:53.170845 db@open done T·26.187815ms
+14:31:53.170974 table@compaction L0·4 -> L1·0 S·704B Q·155
+14:31:53.171158 version@stat F·[0 1] S·177B[0B 177B] Sc·[0.00 0.00]
+14:31:53.189330 table@compaction committed F-4 S-704B Ke·0 D·4 T·18.305594ms
+14:31:53.189571 table@remove removed @194
+14:31:53.190072 table@remove removed @191
+14:31:53.190233 table@remove removed @188
+14:31:53.190356 table@remove removed @185
+=============== May 21, 2019 (UTC) ===============
+14:33:35.963646 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:33:35.964012 version@stat F·[0 1] S·177B[0B 177B] Sc·[0.00 0.00]
+14:33:35.964047 db@open opening
+14:33:35.964184 journal@recovery F·1
+14:33:35.965249 journal@recovery recovering @195
+14:33:35.971194 memdb@flush created L0@197 N·1 S·176B "chu..3\x00\a,d156":"chu..3\x00\a,d156"
+14:33:35.972576 version@stat F·[1 1] S·353B[176B 177B] Sc·[0.25 0.00]
+14:33:35.990415 db@janitor F·4 G·0
+14:33:35.990498 db@open done T·26.429859ms
+=============== May 21, 2019 (UTC) ===============
+14:39:25.247562 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:39:25.247658 version@stat F·[1 1] S·353B[176B 177B] Sc·[0.25 0.00]
+14:39:25.247670 db@open opening
+14:39:25.247711 journal@recovery F·1
+14:39:25.248176 journal@recovery recovering @198
+14:39:25.265842 memdb@flush created L0@200 N·1 S·176B "chu..3\x00\a,d158":"chu..3\x00\a,d158"
+14:39:25.267756 version@stat F·[2 1] S·529B[352B 177B] Sc·[0.50 0.00]
+14:39:25.294769 db@janitor F·5 G·0
+14:39:25.294804 db@open done T·47.125167ms
+=============== May 21, 2019 (UTC) ===============
+14:42:55.965626 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:42:55.965742 version@stat F·[2 1] S·529B[352B 177B] Sc·[0.50 0.00]
+14:42:55.965752 db@open opening
+14:42:55.965795 journal@recovery F·1
+14:42:55.967061 journal@recovery recovering @201
+14:42:55.982840 memdb@flush created L0@203 N·1 S·176B "chu..3\x00\a,d160":"chu..3\x00\a,d160"
+14:42:55.987242 version@stat F·[3 1] S·705B[528B 177B] Sc·[0.75 0.00]
+14:42:56.094334 db@janitor F·6 G·0
+14:42:56.094415 db@open done T·128.650574ms
+=============== May 21, 2019 (UTC) ===============
+14:49:28.674567 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:49:28.674658 version@stat F·[3 1] S·705B[528B 177B] Sc·[0.75 0.00]
+14:49:28.674666 db@open opening
+14:49:28.674709 journal@recovery F·1
+14:49:28.675292 journal@recovery recovering @204
+14:49:28.692757 memdb@flush created L0@206 N·1 S·176B "chu..3\x00\a,d162":"chu..3\x00\a,d162"
+14:49:28.694703 version@stat F·[4 1] S·881B[704B 177B] Sc·[1.00 0.00]
+14:49:28.726599 db@janitor F·7 G·0
+14:49:28.726637 db@open done T·51.965143ms
+14:49:28.727792 table@compaction L0·4 -> L1·0 S·704B Q·163
+14:49:28.734151 version@stat F·[0 1] S·177B[0B 177B] Sc·[0.00 0.00]
+14:49:28.745046 table@compaction committed F-4 S-704B Ke·0 D·4 T·11.169418ms
+14:49:28.745134 table@remove removed @206
+14:49:28.745346 table@remove removed @203
+14:49:28.745396 table@remove removed @200
+14:49:28.745431 table@remove removed @197
+=============== May 21, 2019 (UTC) ===============
+14:49:51.479711 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:49:51.480298 version@stat F·[0 1] S·177B[0B 177B] Sc·[0.00 0.00]
+14:49:51.480354 db@open opening
+14:49:51.480574 journal@recovery F·1
+14:49:51.481684 journal@recovery recovering @207
+14:49:51.486383 memdb@flush created L0@209 N·1 S·176B "chu..3\x00\a,d164":"chu..3\x00\a,d164"
+14:49:51.487631 version@stat F·[1 1] S·353B[176B 177B] Sc·[0.25 0.00]
+14:49:51.505505 db@janitor F·4 G·0
+14:49:51.505578 db@open done T·25.195231ms
+=============== May 21, 2019 (UTC) ===============
+14:50:00.379082 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:50:00.379577 version@stat F·[1 1] S·353B[176B 177B] Sc·[0.25 0.00]
+14:50:00.379624 db@open opening
+14:50:00.379837 journal@recovery F·1
+14:50:00.381193 journal@recovery recovering @210
+14:50:00.391069 memdb@flush created L0@212 N·1 S·176B "chu..3\x00\a,d166":"chu..3\x00\a,d166"
+14:50:00.392382 version@stat F·[2 1] S·529B[352B 177B] Sc·[0.50 0.00]
+14:50:00.415297 db@janitor F·5 G·0
+14:50:00.415352 db@open done T·35.704109ms
+=============== May 21, 2019 (UTC) ===============
+15:08:23.858429 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:08:23.858763 version@stat F·[2 1] S·529B[352B 177B] Sc·[0.50 0.00]
+15:08:23.858793 db@open opening
+15:08:23.858945 journal@recovery F·1
+15:08:23.859701 journal@recovery recovering @213
+15:08:23.865867 memdb@flush created L0@215 N·1 S·176B "chu..3\x00\a,d168":"chu..3\x00\a,d168"
+15:08:23.866317 version@stat F·[3 1] S·705B[528B 177B] Sc·[0.75 0.00]
+15:08:23.885729 db@janitor F·6 G·0
+15:08:23.885826 db@open done T·27.014722ms

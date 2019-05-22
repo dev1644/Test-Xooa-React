@@ -36,16 +36,15 @@ services:
       - DATABASE_HOST=postgresql
     ports:
       - '8080:8080'
-      - '3000:3000'
     volumes:
       - './crypto-config:/crypto-config/'
-      - '/home/tft/Test-xooa/explorer/client:/opt/explorer/client'
+      # - '/home/tft/Test-xooa/explorer/client:/opt/explorer/client'
     networks:
       - byfn-test
     depends_on:
       - PostgreSQL
       - peer.test.external.xooa.com
-    command: ["node", "explorer/configure.js", "&&", "tail", "-f","/dev/null;","/bin/sh", "-c", "cd","explorer/client","&&","npm", "start"]   
+    # command: ["node", "explorer/configure.js", "&&", "tail", "-f","/dev/null;","/bin/sh", "-c", "cd","explorer/client","&&","npm", "start"]   
   
   peer.test.external.xooa.com:
     image: hyperledger/fabric-peer

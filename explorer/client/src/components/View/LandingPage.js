@@ -58,10 +58,10 @@ async function delay(tm) {
 }
 
 const styles = _ => {
-  document.body.style.backgroundColor = "#454545";
+  document.body.style.backgroundColor = "#000000";
   return {
     background: {
-      backgroundColor: "#454545"
+      backgroundColor: "#000000"
     },
     content: {
       margin: "0px auto",
@@ -93,8 +93,8 @@ export class LandingPage extends Component {
         slidesToScroll: 1
       },
       logoStyle: {
-        width: "auto",
-        height: "100px"
+        width: "300px",
+        height: "auto"
       },
       hasDbError: false
     };
@@ -209,7 +209,7 @@ export class LandingPage extends Component {
               style={{
                 margin: "30px 10%",
                 padding: "5px 10px",
-                background: "#454545",
+                background: "#000000",
                 color: "#fff"
               }}
             >

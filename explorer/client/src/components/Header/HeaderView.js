@@ -65,11 +65,9 @@ const { channelsSelector } = tableSelectors;
 const styles = () => {
   return {
     logo: {
-      width: 150,
       height: 50,
       "@media (max-width: 1415px) and (min-width: 990px)": {
-        width: 150,
-        height: 40
+        height: 50        
       }
     },
     navbarHeader: {

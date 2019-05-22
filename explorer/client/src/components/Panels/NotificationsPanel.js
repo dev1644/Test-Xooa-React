@@ -25,7 +25,7 @@ const styles = theme => {
       backgroundColor: '#1C3860'
     },
     panel: {
-      color: undefined,
+      color: "#ffffff",
       backgroundColor: undefined
     },
     badge: {

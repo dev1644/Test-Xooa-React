@@ -19,7 +19,7 @@ import {
   transactionByOrgType
 } from '../types';
 
-const styles = theme => {
+const styles = () => {
   return {
     background: {
       backgroundColor: '#454545'
